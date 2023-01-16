@@ -80,3 +80,9 @@ console.log(sms);
 
 const sms2 = `Sveiki, mano vardas ${name}, man yra ${age} metai ir as esu is ${city}.`;
 console.log(sms2);
+
+const sms3 = 'Sveiki, mano vardas ${name}, man yra ${age} metai ir as esu is ${city}.';
+console.log(sms3);
+
+const sms4 = `Sveiki, mano vardas ' + name + ', man yra ' + age + ' metai ir as esu is ' + city + '.`;
+console.log(sms4);

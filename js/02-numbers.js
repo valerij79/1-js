@@ -127,3 +127,15 @@ console.log(temperatura);
 
 temperatura %= 3;
 console.log(temperatura);
+
+console.log('-----Namu darbas-----')
+
+const z = 10;
+console.log(z);
+
+const x = 15;
+console.log(x);
+
+const v = 20;
+console.log(v);
+

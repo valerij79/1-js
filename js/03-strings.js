@@ -86,3 +86,17 @@ console.log(sms3);
 
 const sms4 = `Sveiki, mano vardas ' + name + ', man yra ' + age + ' metai ir as esu is ' + city + '.`;
 console.log(sms4);
+console.log('~');
+console.log('~');
+console.log('~');
+console.log('-~-~Namu darbas-~-~');
+
+const pirmas = 'HTML';
+console.log(pirmas);
+
+const antras = 'CSS';
+console.log(antras);
+
+const trecias = 'Java_script';
+console.log(trecias);
+

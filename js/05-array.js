@@ -113,6 +113,28 @@ console.log(kelintas777);
 
 console.log('------Namu darbai------');
 
+const z = 10;
+console.log(z);
+
+const x = 15;
+console.log(x);
+
+const v = 20;
+console.log(v);
+
+console.log('------------------');
+
+const pirmas = 'HTML';
+console.log(pirmas);
+
+const antras = 'CSS';
+console.log(antras);
+
+const trecias = 'Java_script';
+console.log(trecias);
+
+console.log('------------------');
+
 const B = [11, 55, 99, 88, 77];
 console.log(B);
 const N = [4, 8, 9, 6, 3];
@@ -172,3 +194,124 @@ vanduo.reverse();
 const vanduo3 = `${vanduo.join(', ')}`;
 console.log(vanduo3);
 
+console.log('------------------');
+
+if (10 < 15) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (15 > 20) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (20 === 15) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (20 !== 15) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (20 <= 15) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (20 >= 15) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+console.log('------------------');
+
+console.log(pirmas.length);
+console.log(antras.length);
+console.log(trecias.length);
+
+if (pirmas > antras) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (antras < trecias) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (pirmas === antras) {
+    console.log('lygus');
+} else {
+    console.log('nelygus');
+}
+
+if (antras !== trecias) {
+    console.log('nelygus');
+} else {
+    console.log('lygus');
+}
+
+if (pirmas >= antras) {
+    console.log('didesnis arba lygus');
+} else {
+    console.log('mazesnis');
+}
+
+if (pirmas <= antras) {
+    console.log('mazesnis arba lygus');
+} else {
+    console.log('didesnis');
+}
+
+console.log('------------------');
+
+console.log(fruits.length);
+console.log(batai.length);
+console.log(vanduo.length);
+
+if (fruits > batai) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (vanduo < batai) {
+    console.log('tiesa');
+} else {
+    console.log('melas');
+}
+
+if (vanduo === fruits) {
+    console.log('lygus');
+} else {
+    console.log('nelygus');
+}
+
+if (batai !== vanduo) {
+    console.log('nelygus');
+} else {
+    console.log('lygus');
+}
+
+if (fruits >= vanduo) {
+    console.log('didesnis arba lygus');
+} else {
+    console.log('mazesnis');
+}
+
+if (vanduo <= batai) {
+    console.log('mazesnis arba lygus');
+} else {
+    console.log('didesnis');
+}

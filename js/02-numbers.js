@@ -1,3 +1,5 @@
+2 lines (126 sloc)  2.88 KB
+
 console.clear();
 /*
 KINTAMUJU INICIAVIMO BUDAI:
@@ -128,14 +130,52 @@ console.log(temperatura);
 temperatura %= 3;
 console.log(temperatura);
 
-console.log('-----Namu darbas-----')
+console.log('Plius plius ------------------');
 
-const z = 10;
-console.log(z);
+let svoris = 20;
+console.log(svoris);
 
-const x = 15;
-console.log(x);
+svoris = svoris + 1;
+console.log(svoris);
 
-const v = 20;
-console.log(v);
+svoris += 1;
+console.log(svoris);
 
+svoris++;
+console.log(svoris);
+
+++svoris;
+console.log(svoris);
+
+console.log('Minus minus------------------');
+
+let ugis = 100;
+console.log(ugis);
+
+ugis = ugis - 1;
+console.log(ugis);
+
+ugis -= 1;
+console.log(ugis);
+
+ugis--;
+console.log(ugis);
+
+--ugis;
+console.log(ugis);
+
+console.log('Priekyje ------------------');
+
+let gg = 0;
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+
+let hh = 0;
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);

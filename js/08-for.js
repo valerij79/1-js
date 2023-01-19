@@ -132,9 +132,15 @@ console.clear();
 const abc1 = 'abcdef';
 let text1 = '';
 
-for (let i = 0; i < abc1.length; i += 1) {
-    text1 += abc1[i];
-    console.log(i, abc1[i], text1);
-}
-const text3 = abc1[5] + abc[4]+abc1[3] + abc[2]+abc1[1] + abc[0];
-console.log(text3);
+
+// for (let i = 0; i < abc1.length; i += 1) {
+//     text1 += abc1[i];
+//     console.log(i, abc1[i], text1);
+// }
+// for (let i = abc1.length; i < 0; i -= 1) {
+//     text1 -= abc1[i];
+//     console.log(i, abc1[i], text1);
+// }
+
+// const text3 = abc1[5] + abc[4]+abc1[3] + abc[2]+abc1[1] + abc[0];
+// console.log(text3);

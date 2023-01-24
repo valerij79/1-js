@@ -54,7 +54,7 @@ console.log(carIntro);
 
 console.log(car['kaip tau sekasi']);
 
-console.clear();
+// console.clear();
 
 const students = [
     {

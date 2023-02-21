@@ -144,3 +144,5 @@ let text1 = '';
 
 // const text3 = abc1[5] + abc[4]+abc1[3] + abc[2]+abc1[1] + abc[0];
 // console.log(text3);
+
+console.log('----------------')

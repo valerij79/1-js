@@ -11,9 +11,9 @@ function reverseString(str) {
     let ats = '';
 
     // 1 - imti simbolius is galo ir sujungti is eiles
-    // for (let i = str.length - 1; i >= 0; i--) {
-    //     ats += str[i];
-    // }
+    for (let i = str.length - 1; i >= 0; i--) {
+        ats += str[i];
+    }
 
     // 2 - imti raides is priekio ir deti pries teksta
     for (let i = 0; i < str.length; i++) {
@@ -21,12 +21,12 @@ function reverseString(str) {
     }
 
     // 3 - eiti is priekio, bet raides imame is galo
-    // for (let i = 0; i < str.length; i++) {
-    //     ats += str[str.length - i - 1];
-    // }
+    for (let i = 0; i < str.length; i++) {
+        ats += str[str.length - i - 1];
+    }
 
-    // 0
-    // ats = str.split('').reverse().join('');
+    0
+    ats = str.split('').reverse().join('');
 
     return ats;
 }

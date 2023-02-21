@@ -146,3 +146,84 @@ if (temperatura >= nuoKadaSilta && !arLyja) {
 } else {
     console.log('Nera silta ir nelyja: reikia striukes');
 }
+
+console.clear();
+
+// function weatherInfo (temp) {
+//     var c = convert(temp);
+//     if (c > 0) {
+//       return (c + " is freezing temperature");
+//      } else {
+//       return (c + " is above freezing temperature");
+//     }
+//     }
+  
+//   function convertToCelsius (temperature) {
+//     var celsius = (temperature) - 32 + (5/9);
+//     return temperature;
+//   }
+
+// function greet(name){
+//     return "Hello, " + name + "!";
+//     if (name === "Johnny")
+//       return "Hello, my love!";
+//   }
+
+
+// function counter(): {
+//    let this.value = 0;
+//   }
+  
+//   counter.prototype.increase() {
+//    let this.value++;
+//   };
+  
+//   counter.prototype.getValue() {
+//     let return this.value;
+//   };
+  
+//   counter.prototype.reset() {
+//     this.value = 0;
+//   };
+
+console.clear();
+
+// const array1 = ['a', 'b', 'c'];
+// const array2 = ['d', 'e', 'f'];
+// const array3 = array1.concat(array2);
+// console.log(array3);
+
+// const array4 = [...array1, 5, 6, ...array2];
+// console.log(array4);
+
+// const array5 = [...array1, ...array1, ...array1];
+// console.log(array5);
+
+// array1[0] = 99999;
+// console.log(array1);
+// console.log(array3);
+// console.log(array4);
+// console.log(array5);
+
+console.clear();
+const abc = 'abcdefghijklmnopqrstuvwxyz';
+
+console.log(abc.at(2), abc[2]);
+console.log(abc.at(-2), abc[abc.length - 2]);
+console.log(abc.charAt(2));
+console.log(abc.charCodeAt(0));
+
+console.log('a', 'A', 'a' > 'A');
+console.log('a'.charCodeAt(0), 'A'.charCodeAt(0));
+
+console.log(abc.indexOf('F'));
+console.log(abc.indexOf('defg'));
+
+console.log('a'.repeat(5));
+console.log('abc'.repeat(5));
+
+let str = '';
+for (let i = 0; i < 5; i++) {
+    str += 'abc';
+}
+console.log(str);

@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ciklai": "nodemon ./js/21-ciklai.js",
+    "arrow": "nodemon ./js/20-arrow.js",
     "arrayMethods": "nodemon ./js/19-arrayMethods.js",
     "stringMethods": "nodemon ./js/18-stringMethods.js",
     "object": "nodemon ./js/17-object.js",
@@ -29,6 +31,7 @@
   "author": "valerij79",
   "license": "ISC",
   "devDependencies": {
+    "dead-server": "^1.0.9",
     "nodemon": "^2.0.20",
     "nodule": "^0.0.6"
   }
